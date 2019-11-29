@@ -1,0 +1,71 @@
+
+
+body{
+margin: 0;
+padding: 0;
+background: url(don.jpg) no-repeat;
+background-size: cover;
+
+
+ 
+}
+.form{
+position: absolute;
+top:10%;
+left: 10%;
+
+}
+.form h1{
+
+	margin: 0px;
+font-family: 'Bowlby One SC', cursive;
+color: white;
+font-size: 70px;
+position: relative;
+right: 0;
+
+
+}
+#username,#password{
+
+border: 0;
+background: none;
+margin: 20px auto;
+text-align: center;
+border: 2px solid white;
+color: white;
+padding: 14px 14px;
+width: 200px;
+outline: none;
+border-radius: 24px;
+
+}
+#username:focus,#password:focus{
+
+width:300px ;
+border-color: #ff1a8c;
+
+
+}
+#submit{
+	border: 0;
+background: none;
+margin: 20px auto;
+text-align: center;
+border: 2px solid white;
+color: white;
+padding: 14px 40px;
+
+outline: none;
+border-radius: 24px;
+transition: 0.25s;
+position: relative;
+left: 25%;
+cursor: pointer;
+
+}
+#submit:hover{
+
+background:#ff1a8c;
+
+}
